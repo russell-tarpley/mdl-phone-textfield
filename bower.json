@@ -1,0 +1,33 @@
+{
+  "name": "mdl-phone-textfield",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rathxxx/mdl-phone-textfield",
+  "authors": [
+    "Russell Tarpley <russell.tarpley@gmail.com>"
+  ],
+  "description": "mdl-phone-textfield for material-design-lite",
+  "main": [
+    "dist/mdl-phone-textfield.min.css",
+    "dist/mdl-phone-textfield.min.js"
+  ],
+  "keywords": [
+    "material",
+    "design",
+    "styleguide",
+    "style",
+    "guide",
+    "mdl",
+    "phone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "~1.2.1"
+  }
+}

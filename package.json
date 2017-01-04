@@ -1,0 +1,38 @@
+{
+  "name": "mdl-phone-textfield",
+  "version": "1.0.0",
+  "description": "mdl-phone-textfield for material-design-lite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rathxxx/mdl-phone-textfield.git"
+  },
+  "keywords": [
+    "material",
+    "design",
+    "styleguide",
+    "style",
+    "guide",
+    "mdl",
+    "textfield",
+    "phone"
+  ],
+  "author": "Russell Tarpley <russell.tarpley@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rathxxx/mdl-phone-textfield/issues"
+  },
+  "homepage": "https://github.com/rathxxx/mdl-phone-textfield",
+  "devDependencies": {
+    "bithound": "^1.7.0",
+    "bower": "^1.5.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "dependencies": {
+    "material-design-lite": "^1.2.1"
+  }
+}
