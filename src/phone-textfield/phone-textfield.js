@@ -65,7 +65,7 @@
     };
 
     MaterialPhoneTextfield.prototype.onChange_ = function (event) {
-        var pattern = /^\(?(\d{3})\)?\.?-?(\d{3})\.?-?(\d{4})$/;
+        var pattern = /^\(?(\d{3})\)?\u0020?\.?-?(\d{3})\u0020?\.?-?\u0020?(\d{4})$/;
         //Test the input string for basic format (optional '-')
         if (!pattern.test(this.input_.value)) {
             this.element_.classList.add(this.CssClasses_.IS_INVALID);
@@ -73,7 +73,7 @@
         } else {
             var matches = pattern.exec(this.input_.value);
             this.rawValue = matches[1] + matches[2] + matches[3];
-            this.input_.value = "(" + matches[1] + ")" + matches[2] + "-" + matches[3];
+            this.input_.value = "(" + matches[1] + ") " + matches[2] + " - " + matches[3];
         }
     };
 
