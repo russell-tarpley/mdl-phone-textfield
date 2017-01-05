@@ -10,7 +10,7 @@ An Material Design Lite phone textfield implementation for capturing user entere
 [![bitHound Dev Dependencies](https://www.bithound.io/github/rathxxx/mdl-phone-textfield/badges/devDependencies.svg)](https://www.bithound.io/github/rathxxx/mdl-phone-textfield/master/dependencies/npm)
 [![bitHound Code](https://www.bithound.io/github/rathxxx/mdl-phone-textfield/badges/code.svg)](https://www.bithound.io/github/rathxxx/mdl-phone-textfield)
 
-> A custom textfield implementation of a social security number component for [Material Design Lite](https://github.com/google/material-design-lite)
+> A custom textfield implementation of phone number component for [Material Design Lite](https://github.com/google/material-design-lite)
 
 ## Install
 
