@@ -61,7 +61,7 @@
   width: $input-text-width;
   background: none;
   text-align: left;
-  color: inherit;
+  color: $input-active-text-color;
 
   &[type="number"] {
     -moz-appearance: textfield;
@@ -132,7 +132,6 @@
   .mdl-phone-textfield--floating-label.is-focused &,
   .mdl-phone-textfield--floating-label.is-dirty &,
   .mdl-phone-textfield--floating-label.has-placeholder & {
-    color: $input-text-highlight-color;
     font-size : $input-text-floating-label-fontsize;
     top: $input-text-vertical-spacing - ($input-text-floating-label-fontsize + $input-text-padding);
     visibility: visible;
@@ -142,6 +141,11 @@
   .mdl-phone-textfield--floating-label.is-dirty .mdl-phone-textfield__expandable-holder &,
   .mdl-phone-textfield--floating-label.has-placeholder .mdl-phone-textfield__expandable-holder & {
     top: -($input-text-floating-label-fontsize + $input-text-padding);
+  }
+
+  // Fix for field labels retaining their color after losing focus
+  :not(.is-invalid).mdl-phone-textfield--floating-label.is-focused > .mdl-phone-textfield__input:focus + & {
+    color: $input-text-highlight-color;    
   }
 
   .mdl-phone-textfield--floating-label.is-invalid & {
